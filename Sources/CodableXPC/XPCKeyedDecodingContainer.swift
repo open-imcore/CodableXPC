@@ -9,7 +9,7 @@
 //
 // -----------------------------------------------------------------------------//
 
-import XPC
+import Foundation
 
 public struct XPCKeyedDecodingContainer<K: CodingKey>: KeyedDecodingContainerProtocol {
     public typealias Key = K

@@ -9,7 +9,7 @@
 //
 // -----------------------------------------------------------------------------
 
-import XPC
+import Foundation
 
 public struct XPCCodingKey: CodingKey {
     public let stringValue: String

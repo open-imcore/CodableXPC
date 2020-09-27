@@ -10,7 +10,7 @@
 //
 // -----------------------------------------------------------------------------//
 
-import XPC
+import Foundation
 
 open class XPCDecoder: Decoder {
     private let underlyingMessage: xpc_object_t

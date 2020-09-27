@@ -11,7 +11,7 @@
 // handle it.
 //
 // -----------------------------------------------------------------------------//
- import XPC
+import Foundation
 
 public struct XPCKeyedEncodingContainer<K: CodingKey>: KeyedEncodingContainerProtocol {
     public typealias Key = K

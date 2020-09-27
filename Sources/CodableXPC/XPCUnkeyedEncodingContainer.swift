@@ -12,7 +12,7 @@
 ///
 // -----------------------------------------------------------------------------//
 
-import XPC
+import Foundation
 
 public struct XPCUnkeyedEncodingContainer: UnkeyedEncodingContainer {
     // MARK: - Properties

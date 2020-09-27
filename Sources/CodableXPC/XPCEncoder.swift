@@ -10,7 +10,7 @@
 //
 // -----------------------------------------------------------------------------//
 
-import XPC
+import Foundation
 
 public class XPCEncoder: Encoder {
     private enum ContainerKind: String {

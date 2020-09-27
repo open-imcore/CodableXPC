@@ -10,7 +10,7 @@
 //
 // -----------------------------------------------------------------------------//
 
-import XPC
+import Foundation
 
 public struct XPCSingleValueDecodingContainer: SingleValueDecodingContainer {
     // MARK: - Properties

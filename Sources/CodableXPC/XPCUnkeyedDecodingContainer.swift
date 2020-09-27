@@ -10,7 +10,7 @@
 //
 // -----------------------------------------------------------------------------//
 
-import XPC
+import Foundation
 
 public struct XPCUnkeyedDecodingContainer: UnkeyedDecodingContainer {
 
